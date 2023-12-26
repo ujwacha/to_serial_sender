@@ -1,0 +1,18 @@
+#+TITLE: to_serial_sender
+#+Author: ujwacha
+#+PROPERTY: 
+
+* Introduction
+This is a very simple ros2 communication library. the code is only 230 lines so i pronbably don't even have to explain how it works. Just look at the code bro
+
+* How to use
+Here I am gonna tell you how to use this thing
+
+- Install Rust
+- get a microcontroller or anything that can communicate via Serial, it will close if it does not find the specified port
+- write a config in JSON format as specified in the help page
+- cargo build --release
+- run the binary
+
+* Contributions
+I am open to contributions, pls help this repo
